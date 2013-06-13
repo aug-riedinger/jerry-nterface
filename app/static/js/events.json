@@ -1,0 +1,170 @@
+[
+  {
+    "id": "parallel",
+    "title": "Parallel tracks: European Startup Barn, Teen Camp, Maker Camp",
+    "allDay": true,
+    "start": "2013-06-19",
+    "end": "2013-06-22",
+    "editable": false,
+    "backgroundColor" : "#FFFFFF",
+    "textColor": "#E2001A",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "registration",
+    "title": "Registration",
+    "allDay": false,
+    "start": "2013-06-19 13:00",
+    "end": "2013-06-19 15:00",
+    "editable": false,
+    "backgroundColor" : "#E26A66",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "reception",
+    "title": "Reception & Power networking",
+    "allDay": false,
+    "start": "2013-06-19 15:30",
+    "end": "2013-06-19 18:30",
+    "editable": false,
+    "backgroundColor" : "#61C866",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "welcome-dinner",
+    "title": "Welcome dinner entertainment",
+    "allDay": false,
+    "start": "2013-06-19 19:00",
+    "end": "2013-06-19 21:00",
+    "editable": false,
+    "backgroundColor" : "#C06DBE",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "keynotes",
+    "title": "Keynotes",
+    "allDay": false,
+    "start": "2013-06-20 10:00",
+    "end": "2013-06-20 12:00",
+    "editable": false,
+    "backgroundColor" : "#A0BFDF",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "lunch",
+    "title": "Lunch",
+    "allDay": false,
+    "start": "2013-06-20 12:30",
+    "end": "2013-06-20 13:30",
+    "editable": false,
+    "backgroundColor" : "#E26A66",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "keynotes",
+    "title": "Keynotes",
+    "allDay": false,
+    "start": "2013-06-20 14:00",
+    "end": "2013-06-20 18:30",
+    "editable": false,
+    "backgroundColor" : "#A0BFDF",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "dinner2",
+    "title": "Dinner",
+    "allDay": false,
+    "start": "2013-06-20 19:00",
+    "end": "2013-06-20 21:00",
+    "editable": false,
+    "backgroundColor" : "#C06DBE",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "keynotes",
+    "title": "Keynotes",
+    "allDay": false,
+    "start": "2013-06-21 10:00",
+    "end": "2013-06-21 12:00",
+    "editable": false,
+    "backgroundColor" : "#A0BFDF",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "lunch",
+    "title": "Lunch",
+    "allDay": false,
+    "start": "2013-06-21 12:30",
+    "end": "2013-06-21 13:30",
+    "editable": false,
+    "backgroundColor" : "#E26A66",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "startup-presentations",
+    "title": "Startup Presentations",
+    "allDay": false,
+    "start": "2013-06-21 14:00",
+    "end": "2013-06-21 15:30",
+    "editable": false,
+    "backgroundColor" : "#FF70BE",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "futures-cubes-workshops",
+    "title": "Futures Cubes Workshops",
+    "allDay": false,
+    "start": "2013-06-21 16:00",
+    "end": "2013-06-21 18:30",
+    "editable": false,
+    "backgroundColor" : "#7BDBB1",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "artshow",
+    "title": "Artshow",
+    "allDay": false,
+    "start": "2013-06-21 19:00",
+    "end": "2013-06-21 21:00",
+    "editable": false,
+    "backgroundColor" : "#C06DBE",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "hackcamp",
+    "title": "Hackcamp",
+    "allDay": false,
+    "start": "2013-06-22 10:00",
+    "end": "2013-06-22 18:30",
+    "editable": false,
+    "backgroundColor" : "#FFFFFF",
+    "textColor": "#E2001A",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  },
+  {
+    "id": "vip-alumni-meetup",
+    "title": "VIP & Alumni Meetup",
+    "allDay": false,
+    "start": "2013-06-22 19:00",
+    "end": "2013-06-22 21:00",
+    "editable": false,
+    "backgroundColor" : "#FFFFFF",
+    "textColor": "#E2001A",
+    "borderColor": "#E2001A",
+    "className": "normal"
+  }
+]
