@@ -11,15 +11,15 @@ body {
 }
 
 .navbar .navbar-inner {
-  background-color: #E2001A;
-  background: url('/images/ux-mlove-backg-01.png');
+/*  background-color: #E2001A;
+  background: url('/images/ux-mlove-backg-01.png');*/
+  background: white;
   border: none;
-/*  box-shadow: none;
-  -webkit-box-shadow: none;
-*/  color: white;
+  color: white;
   text-shadow: none;
   box-shadow: rgba(0,0,0, 0.5) 0px 0px 10px 1px;
 }
+
 
 .navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle {
   background: #F13C51;
@@ -27,28 +27,41 @@ body {
 }
 
 .navbar .navbar-inner a, .navbar .navbar-inner li a {
-  color: white;
+  color: #F13C51;
+  /*color: white;*/
   text-shadow: none;
   font-size: 1.5em;
-  line-height: 32px;
+  line-height: 40px;
+  padding: 0 5px
 }
 
 .navbar .navbar-inner .dropdown-menu > li > a {
   color: #E2001A;
   line-height: normal;
   font-size: 1.1em;
+  padding: 3px 20px;
 }
 
 .navbar .navbar-inner .dropdown-menu > li > a:hover {
   background: #E2001A;
   color: white;
+}
 
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+background: #E2001A;
+color: white;
+text-decoration: none;
 }
 
 .navbar .nav li.dropdown>.dropdown-toggle .caret {
+  border-top-color: #F13C51;
+  border-bottom-color: #F13C51;
+  margin-top: 18px;
+}
+
+.navbar .nav li.dropdown>a:hover .caret, .navbar .nav li.dropdown>a:focus .caret {
   border-top-color: white;
   border-bottom-color: white;
-  margin-top: 12px;
 }
 
 .navbar .nav li.dropdown.open>.dropdown-toggle .caret, .navbar .nav li.dropdown.active>.dropdown-toggle .caret, .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
@@ -56,7 +69,8 @@ body {
   border-bottom-color: white;
 }
 
-.navbar .nav .dropdown-toggle .caret {
+a.brand img {
+  padding-bottom: 4px;
 }
 
 .footer {
@@ -64,7 +78,8 @@ body {
   padding: 10px 0;
   margin-top: 10px;
   border-top: 1px solid #e5e5e5;
-  background-color: #F2EFEA;
+  background-color: white;
+  /*background-color: #F2EFEA;*/
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   box-shadow: rgba(0,0,0, 0.5) 0px 0px 10px 1px;

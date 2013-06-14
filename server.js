@@ -27,6 +27,14 @@ var allowCrossDomain = function(req, res, next) {
 
 var proxy = new httpProxy.RoutingProxy();
 
+app.get('/owncloud', function(req, res) {
+  return proxy.proxyRequest(req, res, {
+    host: 'localhost',
+    port: 80
+  });
+});
+
+
 app.get('/etherpad', function(req, res) {
   req.url = req.url.replace(/^\/etherpad/, '');
   return proxy.proxyRequest(req, res, {
