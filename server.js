@@ -27,27 +27,27 @@ var allowCrossDomain = function(req, res, next) {
 
 var proxy = new httpProxy.RoutingProxy();
 
-app.get('/owncloud', function(req, res) {
-  return proxy.proxyRequest(req, res, {
-    host: 'localhost',
-    port: 80
-  });
-});
+// app.get('/owncloud', function(req, res) {
+//   return proxy.proxyRequest(req, res, {
+//     host: 'localhost',
+//     port: 80
+//   });
+// });
 
 
-app.get('/etherpad', function(req, res) {
-  req.url = req.url.replace(/^\/etherpad/, '');
-  return proxy.proxyRequest(req, res, {
-    host: 'localhost',
-    port: 9001
-  });
-});
+// app.get('/etherpad', function(req, res) {
+//   req.url = req.url.replace(/^\/etherpad/, '');
+//   return proxy.proxyRequest(req, res, {
+//     host: 'localhost',
+//     port: 9001
+//   });
+// });
 
 app.get('/', function(request, response) {
   response.sendfile(__dirname + "/app/index.html");
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 7000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
